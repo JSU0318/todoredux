@@ -7,7 +7,8 @@ import styled from "styled-components";
 const StBox = styled.div`
   width: 100px;
   height: 100px;
-  border: 1px solid ${(props) => props.borderColor}; // 4.부모 컴포넌트에서 보낸 props를 받아 사용합니다.
+  border: 1px solid ${(props) => props.borderColor};
+  // 4.부모 컴포넌트에서 보낸 props를 받아 사용합니다.
   margin: 20px;
 `;
 
